@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
+</head>
+<body>
+    <div class="wrapper">
+        <input type="checkbox" class="hidden" id="burger-menu">
+        <header class="header">
+            <div class="header__case"> 
+                <figure class="header__figure">
+                    <a href="#"><img class="header__logo" src="./assets/images/WiSchool.svg" alt="header_logo"></a>
+                </figure>
+
+                <nav class="navbar">
+                    <ul class="navbar__elements">
+                        <li class="navbar__element"><a href="#">Home</a></li>
+                        <li class="navbar__element"><a href="#">Courses</a></li>
+                        <li class="navbar__element"><a href="#">Instuctors</a></li>
+                        <li class="navbar__element"><a href="#">Schedules</a></li>
+                        <li class="navbar__element"><a href="#">Contact Us</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+            <div class="header__auth">
+                <i class="searcher fa-regular fa-magnifying-glass"></i> 
+                <a class="header__login" href="">Login</a>
+                <button class="btn btn_small btn_border">Register</button>
+            </div>
+
+        </header> 
+    </div>
+    
+    <div class="lg-hidden">
+        <header class="mobile-header">
+                <div class="mobil-header__case">
+                    <label for="burger-menu" class="mobil-btn">
+                        <i class="burger fa-regular fa-bars"></i>
+                    </label>
+                    <a href="#">
+                        <figure class="mobil-icon">
+                            <img class="img-fill" src="./assets/images/WiSchool.svg" alt="logo">
+                        </figure>
+                    </a>
+                </div>
+
+                <button class="mobil-btn">
+                    <i class="header-user fa-light fa-user"></i>
+                </button>
+        </header>
+
+        <div class="burger-menu">
+            <div class="burger-menu__head">
+                <a href="#">
+                    <img src="./assets/images/WiSchool.svg" alt="logo">
+                </a>
+
+                <label class="mobil-btn" for="burger-menu">
+                    <i class="fa fa-x"></i>
+                </label>
+
+            </div>
+
+            <div class="burger-menu__body">
+                <nav class="navbar">
+                        <a class="nav-link"  href="#">Home</a>
+                        <a class="nav-link"  href="#">Courses</a>
+                        <a class="nav-link"  href="#">Instuctors</a>
+                        <a class="nav-link"  href="#">Schedules</a>
+                        <a class="nav-link"  href="#">Contact Us</a>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <!-- Hero Section -->
+        <div class="hero-section">
+            <div class="hero-section__left">
+                <div>
+                    <h1 class="hero-section__title">Quality <span class="text-green">Education</span> By Any Means Necessary.</h1>
+                    <button class="btn">Get Started</button>
+                </div>
+            </div>
+            <div class="hero-section__right">
+                <figure class="hero-section__figure">
+                    <img class="hero-section__img img-fill" src="https://images.wsj.net/im-868139/?width=2000&size=1.5003750937734" alt="right-photo">
+                </figure>
+                <div class="hero-section__users">
+                    <h4 class="users__title">Learn from best <span class="text-green">instructors</span> around the globe</h4>
+                    <div class="users__container">
+                        <figure class="hero-section__users-case">
+                            <img class="hero-section__users-img img-fill" src="https://www.mezan.org/assets/uploads/media-uploader/16689273951522.jpg" alt="photo">
+                        </figure>
+                        <figure class="hero-section__users-case">
+                            <img class="hero-section__users-img img-fill" src="https://www.mezan.org/assets/uploads/media-uploader/16689273951522.jpg" alt="photo">
+                        </figure>
+                        <figure class="hero-section__users-case">
+                            <img class="hero-section__users-img img-fill" src="https://www.mezan.org/assets/uploads/media-uploader/16689273951522.jpg" alt="photo">
+                        </figure>
+                        <figure class="hero-section__users-case">
+                            <img class="hero-section__users-img img-fill" src="https://www.mezan.org/assets/uploads/media-uploader/16689273951522.jpg" alt="photo">
+                        </figure>
+                        <figure class="hero-section__users-case">
+                            <img class="hero-section__users-img img-fill" src="https://www.mezan.org/assets/uploads/media-uploader/16689273951522.jpg" alt="photo">
+                        </figure>
+                    </div>
+                </div>
+                <div class="hero-section__followers">
+                    <div class="ring circle">
+                        <i class="follow-user fa-regular fa-user"></i>
+                    </div>
+                    <h4 class="followers__numbers text-green">15k</h4>
+                    <p class="followers__title">Amazing students around the globe</p>
+
+                </div>
+            </div> 
+
+        </div>
+        <!-- #Hero Section -->
+
+        <!-- Statistic -->
+            <div class="statistic card">
+               <div class="statistic__container">
+                    <i class="statistic__icon circle w-h fa-solid fa-square-root-variable"></i>
+                    <span class="statistic__text">Problem Solving</span>
+               </div>
+               <div class="statistic__container">
+                    <i class="statistic__icon circle w-h fa-regular fa-message"></i>
+                    <span class="statistic__text">Live chat</span>
+                </div>
+                <div class="statistic__container">
+                    <i class="statistic__icon circle w-h fa-solid fa-user-group"></i>
+                    <span class="statistic__text">Group Reading</span>
+               </div>
+               <div class="statistic__container">
+                    <i class="statistic__icon circle w-h fa-solid fa-book-open"></i>
+                     <span class="statistic__text">10k Courses</span>
+                </div>
+                <div class="statistic__container">
+                    <i class="statistic__icon circle w-h fa-regular fa-handshake"></i>
+                    <span class="statistic__text">Hand-on activities</span>
+               </div>
+            </div>
+        <!-- #Statistic -->
+
+        <!-- Category -->
+            <div class="category card arrow-content">
+                <div class="card__head">
+                    <h3 class="card__title">Choose favourite course from top cartegories</h3>
+                    <div>
+                        <a href="#">See all</a>
+                    </div>
+                </div>
+
+                <div class="card__body grid grid-cols-4 gap-32">
+                    <article class="category__item">
+                        <figure class="category__photo">
+                            <img class="category_img img-fill" src="https://images.unsplash.com/photo-1519058082700-08a0b56da9b4?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="photMan">
+                        </figure>
+                        <div class="category__inner">
+                           <div class="category__case">
+                                <h4 class="category__title">Marketing</h4>
+                                <p class="category__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta laboriosam odio expedita, incidunt iure veniam dolor similique, dolores id nam sit! Quis aliquid odio, vitae nesciunt optio inventore nemo perspiciatis.
+                                </p>
+                           </div>
+                        </div>
+                    </article>
+
+                    <article class="category__item">
+                        <figure class="category__photo">
+                            <img class="category_img img-fill"src="https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?q=80&w=1443&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="photMan">
+                        </figure>
+                        <div class="category__inner">
+                            <div class="category__case">
+                                 <h4 class="category__title">Design</h4>
+                                 <p class="category__text">
+                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta laboriosam odio expedita, incidunt iure veniam dolor similique, dolores id nam sit! Quis aliquid odio, vitae nesciunt optio inventore nemo perspiciatis.
+                                 </p>
+                            </div>
+                         </div>
+                    </article>
+
+                    <article class="category__item">
+                        <figure class="category__photo">
+                            <img class="category_img img-fill" src="https://plus.unsplash.com/premium_photo-1677553953986-a78e31a192f8?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="photMan">
+                        </figure>
+                        <div class="category__inner">
+                            <div class="category__case">
+                                 <h4 class="category__title">Design</h4>
+                                 <p class="category__text">
+                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta laboriosam odio expedita, incidunt iure veniam dolor similique, dolores id nam sit! Quis aliquid odio, vitae nesciunt optio inventore nemo perspiciatis.
+                                 </p>
+                            </div>
+                         </div>
+                    </article>
+
+                    <article class="category__item">
+                        <figure class="category__photo">
+                            <img class="category_img img-fill" src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="photMan">
+                        </figure>
+                        <div class="category__inner">
+                            <div class="category__case">
+                                 <h4 class="category__title">Technology</h4>
+                                 <p class="category__text">
+                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta laboriosam odio expedita, incidunt iure veniam dolor similique, dolores id nam sit! Quis aliquid odio, vitae nesciunt optio inventore nemo perspiciatis.
+                                 </p>
+                            </div>
+                         </div>
+                    </article>
+                    
+                </div>
+
+                <div class="arrow arrow-left">
+                    <button class="arrow-btn">
+                        <i class="fa fa-chevron-left"></i>
+                    </button>
+                </div>
+
+                <div class="arrow arrow-right">
+                    <button class="arrow-btn">
+                        <i class="fa fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        <!-- #Category -->
+            
+        <!-- Coures -->
+        <section class="card courses">
+            <div class="card__head">
+                <h3 class="card__title">Most Popular courses</h3>
+                <div>
+                    <button class="courses__btn btn mini btn_border">
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <span>Sort by</span>
+                    </button>
+                </div>
+            </div>
+            <div class="card__body grid grid-cols-3 gap-32">
+
+                <article class="courses__item">
+                    <a class="link" href="#"></a>
+                    <figure class="courses__photo">
+                        <img class="courses__img img-fill" src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="photo">
+                    </figure>
+                    <div class="courses__inner">
+                        <div class="courses__top">
+                            <h5 class="courses__title line-clamp">Learn Marketing from Top Instructors.</h5>
+                            <span class="courses__rate">
+                                <i class="courses__star fa-regular fa-star"></i>
+                                <span class="courses__value">4.5</span>
+                            </span>
+                        </div>
+                        <div class="courses__bottom">
+                            <div class="courses__info">
+                                <span>6 weeks</span>
+                                <span class="courses__info-elements">
+                                    <i class="fa fa-user"></i>
+                                    <span>1.5k Students</span>
+                                </span>
+                            </div>
+                            <div class="courses__price text-green">
+                                30.5$
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="courses__item">
+                    <a class="link" href="#"></a>
+                    <figure class="courses__photo">
+                        <img class="courses__img img-fill" src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    </figure>
+                    <div class="courses__inner">
+                        <div class="courses__top">
+                            <h5 class="courses__title line-clamp">Learn Marketing from Top Instructors.</h5>
+                            <span class="courses__rate">
+                                <i class="courses__star fa-regular fa-star"></i>
+                                <span class="courses__value">4.5</span>
+                            </span>
+                        </div>
+                        <div class="courses__bottom">
+                            <div class="courses__info">
+                                <span>6 weeks</span>
+                                <span class="courses__info-elements">
+                                    <i class="fa fa-user"></i>
+                                    <span>1.5k Students</span>
+                                </span>
+                            </div>
+                            <div class="courses__price text-green">
+                                30.5$
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="courses__item">
+                    <a class="link" href="#"></a>
+                    <figure class="courses__photo">
+                        <img class="courses__img img-fill" src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    </figure>
+                    <div class="courses__inner">
+                        <div class="courses__top">
+                            <h5 class="courses__title line-clamp">Learn Marketing from Top Instructors.</h5>
+                            <span class="courses__rate">
+                                <i class="courses__star fa-regular fa-star"></i>
+                                <span class="courses__value">4.5</span>
+                            </span>
+                        </div>
+                        <div class="courses__bottom">
+                            <div class="courses__info">
+                                <span>6 weeks</span>
+                                <span class="courses__info-elements">
+                                    <i class="fa fa-user"></i>
+                                    <span>1.5k Students</span>
+                                </span>
+                            </div>
+                            <div class="courses__price text-green">
+                                30.5$
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="courses__item">
+                    <a class="link" href="#"></a>
+                    <figure class="courses__photo">
+                        <img class="courses__img img-fill" src="https://plus.unsplash.com/premium_photo-1677541367608-7283ec1b3a2b?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="photo">
+                    </figure>
+                    <div class="courses__inner">
+                        <div class="courses__top">
+                            <h5 class="courses__title line-clamp">Learn Marketing from Top Instructors.</h5>
+                            <span class="courses__rate">
+                                <i class="courses__star fa-regular fa-star"></i>
+                                <span class="courses__value">4.5</span>
+                            </span>
+                        </div>
+                        <div class="courses__bottom">
+                            <div class="courses__info">
+                                <span>6 weeks</span>
+                                <span class="courses__info-elements">
+                                    <i class="fa fa-user"></i>
+                                    <span>1.5k Students</span>
+                                </span>
+                            </div>
+                            <div class="courses__price text-green">
+                                30.5$
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="courses__item">
+                    <a class="link" href="#"></a>
+                    <figure class="courses__photo">
+                        <img class="courses__img img-fill" src="https://images.unsplash.com/photo-1491637639811-60e2756cc1c7?q=80&w=1456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="photo">
+                    </figure>
+                    <div class="courses__inner">
+                        <div class="courses__top">
+                            <h5 class="courses__title line-clamp">Learn Marketing from Top Instructors.</h5>
+                            <span class="courses__rate">
+                                <i class="courses__star fa-regular fa-star"></i>
+                                <span class="courses__value">4.5</span>
+                            </span>
+                        </div>
+                        <div class="courses__bottom">
+                            <div class="courses__info">
+                                <span>6 weeks</span>
+                                <span class="courses__info-elements">
+                                    <i class="fa fa-user"></i>
+                                    <span>1.5k Students</span>
+                                </span>
+                            </div>
+                            <div class="courses__price text-green">
+                                30.5$
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="courses__item">
+                    <a class="link" href="#"></a>
+                    <figure class="courses__photo">
+                        <img class="courses__img img-fill" src="https://images.unsplash.com/photo-1486401899868-0e435ed85128?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    </figure>
+                    <div class="courses__inner">
+                        <div class="courses__top">
+                            <h5 class="courses__title line-clamp">Learn Marketing from Top Instructors.</h5>
+                            <span class="courses__rate">
+                                <i class="courses__star fa-regular fa-star"></i>
+                                <span class="courses__value">4.5</span>
+                            </span>
+                        </div>
+                        <div class="courses__bottom">
+                            <div class="courses__info">
+                                <span>6 weeks</span>
+                                <span class="courses__info-elements">
+                                    <i class="fa fa-user"></i>
+                                    <span>1.5k Students</span>
+                                </span>
+                            </div>
+                            <div class="courses__price text-green">
+                                30.5$
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+         </section>
+        <!-- #Coures -->
+
+        <!-- skill -->
+        <section class="card courses">
+            <div class="card__head">
+                <h3 class="card__title">Learn a new skill in two hours</h3>
+            </div>
+            <div class="card__body grid grid-cols-3 gap-32 arrow-content">
+
+                <article class="courses__item">
+                    <a class="link" href="#"></a>
+                    <figure class="courses__photo">
+                        <img class="courses__img img-fill" src="https://images.unsplash.com/photo-1522115174737-2497162f69ec?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="photo">
+                    </figure>
+                    <div class="courses__inner">
+                        <div class="courses__top">
+                            <h5 class="courses__title">Learn Marketing from Top Instructors.</h5>
+                            <span class="courses__rate">
+                                <i class="courses__star fa-regular fa-star"></i>
+                                <span class="courses__value">4.5</span>
+                            </span>
+                        </div>
+                        <div class="courses__bottom">
+                            <div class="courses__info">
+                                <span>6 weeks</span>
+                                <span class="courses__info-elements">
+                                    <i class="fa fa-user"></i>
+                                    <span>1.5k Students</span>
+                                </span>
+                            </div>
+                            <div class="courses__price text-green">
+                                30.5$
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="courses__item">
+                    <a class="link" href="#"></a>
+                    <figure class="courses__photo">
+                        <img class="courses__img img-fill" src="https://images.unsplash.com/photo-1524638067-feba7e8ed70f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    </figure>
+                    <div class="courses__inner">
+                        <div class="courses__top">
+                            <h5 class="courses__title">Learn Marketing from Top Instructors.</h5>
+                            <span class="courses__rate">
+                                <i class="courses__star fa-regular fa-star"></i>
+                                <span class="courses__value">4.5</span>
+                            </span>
+                        </div>
+                        <div class="courses__bottom">
+                            <div class="courses__info">
+                                <span>6 weeks</span>
+                                <span class="courses__info-elements">
+                                    <i class="fa fa-user"></i>
+                                    <span>1.5k Students</span>
+                                </span>
+                            </div>
+                            <div class="courses__price text-green">
+                                30.5$
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="courses__item">
+                    <a class="link" href="#"></a>
+                    <figure class="courses__photo">
+                        <img class="courses__img img-fill" src="https://images.unsplash.com/photo-1503328427499-d92d1ac3d174?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    </figure>
+                    <div class="courses__inner">
+                        <div class="courses__top">
+                            <h5 class="courses__title">Learn Marketing from Top Instructors.</h5>
+                            <span class="courses__rate">
+                                <i class="courses__star fa-regular fa-star"></i>
+                                <span class="courses__value">4.5</span>
+                            </span>
+                        </div>
+                        <div class="courses__bottom">
+                            <div class="courses__info">
+                                <span>6 weeks</span>
+                                <span class="courses__info-elements">
+                                    <i class="fa fa-user"></i>
+                                    <span>1.5k Students</span>
+                                </span>
+                            </div>
+                            <div class="courses__price text-green">
+                                30.5$
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <div class="arrow arrow-left">
+                    <button class="arrow-btn">
+                        <i class="fa fa-chevron-left"></i>
+                    </button>
+                </div>
+
+                <div class="arrow arrow-right">
+                    <button class="arrow-btn">
+                        <i class="fa fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>    
+        <!-- #skill -->
+
+        <!-- About -->
+        <div class="card">
+            <div>
+                <div class="card__head">
+                    <h4 class="card__title">We Bring The Good Education To Life </h4>
+                </div>
+
+                <div class="card__body about">
+                    <div class="about__left">
+                        <figure class="hero-section__figure">
+                            <img class="hero-section__img img-fill" src="https://images.wsj.net/im-868139/?width=2000&size=1.5003750937734" alt="right-photo">
+                        </figure>
+                        <div class="about__container">
+                            <i class="item-icon fa-solid fa-bag-shopping text-green circle w-h"></i>
+                            <div>
+                                <span class="text-green line line-sm">Job</span>
+                                <span> Opportunities</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="about__right">
+                        <h3 class="about__right-title">Let Your Education Do The Walking</h3>
+                        <div class="about-right__items">
+                            <div class="about-right__item" >
+                                <i class="fa-regular fa-solid fa-book-open circle w-h-50"></i>
+                                <span>Free E-book, Videos and kits</span>
+                            </div>
+                            <div class="about-right__item" >
+                                <i class="fa-regular fa-clock circle w-h-50"></i>
+                                <span>Learn at your own pace</span>
+                            </div>
+                            <div class="about-right__item" >
+                                <i class="fa-solid fa-bag-shopping circle w-h-50"></i>
+                                <span>Collaborate with different learners around the globe</span>
+                            </div>
+                            <div class="about-right__item" >
+                                <i class="fa-solid fa-users circle w-h-50"></i>
+                                <span>Top instructors around the globe</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!--# About -->
+
+        <!-- Review -->
+            <section class="review card">
+                <div> 
+                    <div class="card__head"></div>
+                        <h4 class="card__title card__head--center">Reviews</h4>
+
+                        <div class="card__body review">
+                            <div class="review__left">
+                                <div>
+                                    <h3 class="review__title">What our <span class="text-green line line-lg">Students</span> say about us</h3>
+                                </div>
+                                <div class="review__arrow">
+                                    <button class="review__btn circle w-h-60">
+                                        <i class="fa fa-chevron-left"></i>
+                                    </button>
+
+                                    <button class="review__btn circle w-h-60">
+                                        <i class="fa fa-chevron-right"></i>
+                                    </button>
+
+                                </div>
+                            </div>
+
+                            <div class="review__right ">
+                                <div class="item__box">
+                                    <div class="item__box--head">
+                                        <figure class="photo__case">
+                                            <img class="img-fill" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="photo">
+                                        </figure>
+                                        <div>
+                                            <h5 class="item__box-title">Mohh Jumah</h5>
+                                            <p class="item__box-subtitle">Senior Developer</p>
+                                        </div>
+                                    </div>
+                                    <div class="item__box--body">
+                                        <p class="item__box-text">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, minima eos! Recusandae, dolorem error quam dignissimos sint voluptates dolores nam delectus. Possimus expedita est reprehenderit odit, accusamus neque impedit nobis.
+                                        </p>
+                                    </div>
+
+                                </div>
+
+                                <div class="item__box">
+                                    <div class="item__box--head">
+                                        <figure class="photo__case">
+                                            <img class="img-fill" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="photo">
+                                        </figure>
+                                        <div>
+                                            <h5 class="item__box-title">Mohh Jumah</h5>
+                                            <p class="item__box-subtitle">Senior Developer</p>
+                                        </div>
+                                    </div>
+                                    <div class="item__box--body">
+                                        <p class="item__box-text">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, minima eos! Recusandae, dolorem error quam dignissimos sint voluptates dolores nam delectus. Possimus expedita est reprehenderit odit, accusamus neque impedit nobis.
+                                        </p>
+                                    </div>
+
+                                </div>
+                                
+                                
+
+                            </div>
+                        </div>
+
+                        
+
+                </div>
+
+                
+            </section>
+        <!--# Review --> 
+
+        <!-- instructors -->
+            <section class="connect card">
+                <div>
+                    <div class="card__head">
+                        <h3 class="card__title">Meet our instructors</h3>
+                    </div>
+
+                    <div class="card__body grid grid-cols-3 gap-32">
+                        <div class="item__box">
+                            <div class="instruc item__box--head">
+                                <figure class="photo__case">
+                                    <img class="img-fill" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="photo">
+                                </figure>
+                                <div>
+                                    <h5 class="item__box-title">Mohh Jumah</h5>
+                                    <p class="item__box-subtitle">Senior Developer</p>
+                                </div>
+                            </div>
+                            <div class="item__box--body">
+                                <p class="item__box-text t-center">
+                                    “Education will be for you what you want it to be” 
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="item__box">
+                            <div class="instruc item__box--head">
+                                <figure class="photo__case">
+                                    <img class="img-fill" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="photo">
+                                </figure>
+                                <div>
+                                    <h5 class="item__box-title">Mohh Jumah</h5>
+                                    <p class="item__box-subtitle">Senior Developer</p>
+                                </div>
+                            </div>
+                            <div class="item__box--body">
+                                <p class="item__box-text t-center">
+                                    “Knowledge has to be improved, challenged, and increased constantly, or it vanishes”
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="item__box">
+                            <div class="instruc item__box--head">
+                                <figure class="photo__case">
+                                    <img class="img-fill" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="photo">
+                                </figure>
+                                <div>
+                                    <h5 class="item__box-title">Mohh Jumah</h5>
+                                    <p class="item__box-subtitle">Senior Developer</p>
+                                </div>
+                            </div>
+                            <div class="item__box--body">
+                                <p class="item__box-text t-center">
+                                    “To know that we know what we know, and to know that we do not know what we do not know, that is true knowledge”
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        <!-- #instructors -->
+    </div>
+        <!-- Call section -->
+        <section class="call-box" style="background-image: url('https://plus.unsplash.com/premium_photo-1661909267383-58991abdca51?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+            <div class="wrapper">
+                <div class="case">
+                    <div class="call__left">
+                        <figure class="call__photo">
+                            <img class="img-fill" src="https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=1372&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="girl">
+                        </figure>
+                    </div>
+                    <div class="call__right">
+                        <div>
+                            <h2 class="call__title">You don’t have to see the whole staircase just take the first step</h2>
+                            <p class="call__text">
+                                Amet in a suspendisse convallis eget, Amet in a suspendisse convallis egetAmet in a 
+                            </p>
+                            <div class="call_btns">
+                                <button class="btn">Get Started</button>
+                                <button class="btn">Place a call</button>
+                            </div>
+                        </div>
+                        
+    
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <footer class="footer">
+            <div class="wrapper">
+                <div class="footer__container">
+                    <div class="footer__left">
+                        <a class="footer__link" href="#">
+                            <img class="img-fill" src="assets/icons/WiSchoolWhite.svg" alt="logo">
+                        </a>
+                        <p class="footer__text">
+                            We are not here to sell you products, we sell value through our expertise.
+                        </p>
+                        <div class="socila-networks">
+                            <button>
+                                <i class="fa-brands fa-facebook"></i>
+                            </button>
+                            <button>
+                                <i class="fa-brands fa-twitter"></i>
+                            </button>
+                            <button>
+                                <i class="fa-brands fa-instagram"></i>
+                            </button>
+                            <button>
+                                <i class="fa-brands fa-linkedin"></i>
+                            </button>
+                        </div>
+    
+                    </div>
+    
+                    <div class="footer__right">
+                        <div class="menus">
+                            <a href="#">Home</a>
+                            <a href="#">Services</a>
+                            <a href="#">Training</a>
+                            <a href="#">Resources</a>
+                            <a href="#">About Us</a>
+                        </div>
+    
+                        <div class="menus">
+                            <a href="#">SME</a>
+                            <a href="#">Solution</a>
+                            <a href="#">Reviews</a>
+                            <a href="#">Blog</a>
+                        </div>
+    
+                        <div class="menus">
+                            <a href="#">Contact Us</a>
+                            <a href="#">Place a Call</a>
+                            <a href="#">Email</a>
+                            <a href="#">Wischool@gmail.com</a>
+                        </div>
+    
+                        <div class="menus">
+                            <a href="#">Job Opening</a>
+                            <a href="#">News</a>
+                            <a href="#">Research</a>
+                        </div>
+                        <div class="menus">
+                            <a href="#">Uk Privacy Policy</a>
+                            <a href="#">Terms of Use</a>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="form">
+                    <h3>Subscribe to get latest updates</h3>
+                    <div class="form__content">
+                        <input type="text" placeholder="Your Email address">
+                        <button class="footer__btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+</body>
+</html>
